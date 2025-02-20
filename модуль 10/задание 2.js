@@ -11,6 +11,10 @@ switch (x) {
     console.log('Cтрока');
     break;
   
+  case 'boolean':
+    console.log('Логический типи');
+    break;
+  
   default:
-  console.log('Логический тип');
+  console.log('Тип x не определён');
 }
